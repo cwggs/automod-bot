@@ -52,7 +52,7 @@ IF YOU WANT ADD MORE COOMNDS JOIN SUPPORT SERVER 😁
 
 ## 📝 Tutorial
 
-Tutorial has been uploaded on YouTube <img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_full-color.svg?cache=f2ec7a5" width="30px"> Watch it by clicking [here](https://youtu.be/TXzZABndSj8)
+Tutorial has been uploaded on YouTube <img src="https://youtu.be/IX4DZq7iVf4" width="30px"> Watch it by clicking [here](https://youtu.be/TXzZABndSj8)
 
 ** How to host watch' video <img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_full-color.svg?cache=f2ec7a5" width="30px"> Watch it by clicking [here](https://youtu.be/NlCufWQUL54)
 **
