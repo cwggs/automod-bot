@@ -1,146 +1,91 @@
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <title>Commands!</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-</head>
-
-<div>
-    <header>
-        <h1>Automodv12 Bot Commands!</h1>
-        <br>
-        <h2> All commnds catgeroy here Commands</h2>
-    </header>
-
-    <body>
-        <div class="container">
-            <div class="box">
-                <div class="content">
-                    <p>⚫ MODERATION - KICK,SETWELCOME,BAN,MUTE.ETC</p>
-                    <br>
-                    <p>⚫ IMAGE - SPEED, WASTED,RIP.ETC</p>
-                    <br>
-                    <p>⚫ GIVEWAY - START,END,.ETC</p>
-                    <br>
-                    <p>⚫ INFO - BOTINFO ,USERINFO,SERVERINFO,</p>
-                    <br>
-                    <p>⚫ FUN - MEME,SLAP.ETC</p>
-                    <br>
-                    <p>⚫ ECONOMY -  WORK ,BUY,GIVE.ETC</p>
-                    <br>
-                    <p>⚫ A BOT WITH 90+ COMMNDS</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="content">
-                    <p>⚫ qkick - Kick user</p>
-                    <br>
-                    <p>⚫ qban - Bans user</p>
-                    <br>
-                    <p>⚫ qmute - Mutes user</p>
-                    <br>
-                    <p>⚫ qunmute - Unmutes user</p>
-                    <br>
-                    <p>⚫ qticket - Creates support ticket</p>
-                    <br>
-                    <p>⚫ qclear - Clears messages</p>
-                    <br>
-                    <p>⚫ qrules - Shows embed with rules</p>
-                </div>
-            </div>
-            <button class="btn"  onclick="location.href='https://automodbot.tk'">Back To Main Page</button>
-            <br>
-            <h4>Copyright © AUTOMODBOT 2021</h4>
-        </div>
-    </body>
-</div>
-
 <style>
-
-.container {
-    width: 1200px;
-    position: relative;
-    left: 430px;
+.entity-header__image {
+    border-radius: 50% !important;
+    border: 3px solid gold;
+    animation: float 5s ease-in-out infinite;
 }
-.container .box {
-    position: relative;
-    width: 500px;
-    height: 600px;
-    background: rgb(32, 32, 32);
-    float: left;
-    margin: 15px;
-    border-radius: 10px;
-}
-.btn {
-        margin-left: 350px;
-        background-color: rgba(27, 27, 27, 0.815);
-        color: rgb(255, 255, 255);
-        font-size: 40px;
-        transition-duration: 0.5s;
-        border: 2px solid white;
-        border-radius: 10px;
-        font-family: 'Josefin Sans', sans-serif;
-        
-    }
-
-
-h1 {
-    font-family: 'Fredoka One', cursive;
-    font-size: 50px;
-    text-align: center;
-    color: aqua;
-    margin-bottom: 15px;
+  
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translatey(-30px);
+            transform: translatey(-30px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
 }
 
-h2 {
-    font-family: 'Fredoka One', cursive;
-    font-size: 30px;
-    color: white;
-    margin-left: 537px;
+.entity-wrapper {
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: url('https://cdn.discordapp.com/attachments/824976037578014730/834492904600764416/image0-47.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    scrollbar-width: none;
 }
 
-body {
-    background-color: #42455a;
+.entity-wrapper::-webkit-scrollbar {
+    display: none;
 }
 
-h4 {
-    font-family: 'Fredoka One', cursive;
-    font-size: 30px;
-    color: white;
-    margin-left: 375px;
-}
-p {
-    font-family: 'Fredoka One', cursive;
-    font-size: 20px;
-    color: white;
-    margin-left: 15px;
+body{
+    scrollbar-width: none;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
 
+#menu {
+    background: transparent;
+}
+.entity-content__description {
+    background: transparent !important;
+    border: none;
+}
 
+.entity-content__divider {
+    display: none;
+}
+
+.entity-hint {
+    display: none;
+}
+
+blockquote {
+    background: linear-gradient(90deg, #363636 30%, #fff0 100%) !important;
+}
+<img src ="https://cdn.discordapp.com/attachments/696700208213655597/835448492939411476/download_3.png" />
 </style>
 
-<html>
-<html lang="en"></html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>button toggler</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <div id="outer-div">
-        <div id="inner-div"></div>
-    </div>
+# Automodbot commnds categorys
 
-    <h1 id="msg">Click To Toggle</h1>
-    <script src="script.js"></script>
-</body>
-</html>
-<meta name="color-scheme" content="dark light">
+
+# AUTOMODBOT FEATURES
+
+`1. FUNN MODERATION COMMNDS WITH 120+COMMNDS`
+`2. 10 CTEAGORYS
+`
+
+`3. Premium Features`
+
+`4. Uptime 99%`
+
+`5. Free Forever`
+
+`6. Support Server`
+
+### support server:  
+<a href="https://discord.gg/uC5bAzvmX5"><img src="http://invidget.switchblade.xyz/kACM4NPN9F"/></a>
+
+<img src="https://cdn.discordapp.com/attachments/816496663468179487/835443601945133066/download_2.png" />
