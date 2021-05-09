@@ -17,7 +17,7 @@ Id 682981714523586606
 - ✅ owner 
 - ✅ premium
 
-
+- ✅ music
 
 
 A FUN AND MODERATION BOT WITH 110+ COMMNDS 
